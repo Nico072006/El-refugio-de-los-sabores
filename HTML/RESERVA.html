@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante.web</title>
+    <link rel="stylesheet" href="../CSS/estiloreserva.css">
+</head>
+
+<body id="bodyContacto">
+    <nav>
+        <ul>
+            <li><a href="Index.html">Inicio</a></li>
+            <li><a href="ACERCA DE.html">Acerca de</a></li>
+            <li><a href="Menu.html">Menu</a></li>
+            <li><a href="RESERVA.html">Reserva</a> </li>
+        </ul>
+    </nav>
+    <h1 id="titulo">Datos reserva</h1>
+    <header id="formulariocss">
+        <main >
+            <form  id="Formulariomain">
+            <label class="texformulario" for="">Nombre</label>
+            <input type="text" placeholder="Nombre">
+
+            <label class="texformulario" for="Rol">Ingresa tu rol</label>
+            <select name="Rol">
+                <option value="">Usuario</option>
+                <option value="">Administrador</option>
+                <option value="">Empleado </option>
+            </select>
+
+            <label class="texformulario" for="Correo">Correo Electronico</label>
+            <input type="text"name="Email" required>
+            
+
+
+            <label class="texformulario" for="Telefono">Telefono</label>
+            <input type="text"name="telefono">
+
+
+            <label class="texformulario" for="City">Ciudad</label>
+            <select name="City">
+                <option value="">Bogota</option>
+                <option value="">Cali</option>
+                <option value="">Medellin</option>
+
+            </select>
+            
+            <label for="direccion">Dirección:</label>
+            <input type="text" id="direccion" name="direccion" placeholder="Ingresa tu dirección" required>
+          
+
+            <label class="texformulario" for="Pass">Contraseña</label>
+            <input type="password"name="pass" required></required>
+
+            <label class="texformulario" for="Rol">Reserva</label>
+            <select name="Rol">
+                <option value="">Eliminar</option>
+                <option value="">Crear</option>
+                <option value="">Modificar </option>
+            </select>
+
+            <label for="fecha">Fecha de tu reserva</label>
+            <input type="date"name="fecha" required>
+
+
+            <label for="comentario">Comentario</label>
+            <textarea name="comentario" rows="5" cols="40" placeholder="Caracteristicas de tu reserva" id="">Comentario</textarea>
+
+            <button type="submit" id="enviar">ENVIAR</button>
+
+            
+        </form>       
+        </main>
+    </header> 
+</body>
+</html>
